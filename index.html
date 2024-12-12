@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<header class="bg-gray-100 font-sans">
+  <!-- Navigation Bar -->
+  <nav class="bg-green-600 p-4 h-16 sm:h-12">
+    <div class="container mx-auto flex justify-between items-center">
+      <!-- Call Us Text (Hidden on small screens) -->
+      <a href="index.html" class="text-white text-lg sm:text-sm hidden sm:block pb-2 sm:pb-0">
+        Call Us Now: 555 376 7872
+      </a>
+
+      <!-- Social Media Icons (Left aligned with less space between them on small screens) -->
+      <div class="flex justify-start items-center space-x-2 sm:space-x-4 w-full sm:w-auto sm:ml-auto">
+        <i class="fab fa-facebook-f w-8 h-8 text-xl text-white sm:text-base"></i>
+        <i class="fab fa-twitter w-8 h-8 text-xl text-white sm:text-base"></i>
+        <i class="fab fa-pinterest w-8 h-8 text-xl text-white sm:text-base"></i>
+        <i class="fab fa-instagram w-8 h-8 text-xl text-white sm:text-base"></i>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+<body>
+  <!-- Home Page Content -->
+  <section class="container mx-auto p-14 text-center">
+
+    <!-- Logo Image -->
+    <div class="flex items-center justify-center mb-10">
+      <img src="./images/logo.png" alt="Centered Image" class="h-auto w-64 sm:w-80 md:w-96">
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="flex justify-center flex-wrap">
+      <a href="index.html"
+        class="text-xl text-black text-yellow-500 underline decoration-yellow-500 hover:text-yellow-500 hover:underline decoration-yellow-500 p-8 sm:text-xl md:text-2xl lg:text-3xl">
+        HOME
+      </a>
+      <a href="about.html"
+        class="text-xl text-black hover:text-yellow-500 hover:underline decoration-yellow-500 p-8 sm:text-xl md:text-2xl lg:text-3xl">
+        ABOUT
+      </a>
+      <a href="contact.html"
+        class="text-xl text-black hover:text-yellow-500 hover:underline decoration-yellow-500 p-8 sm:text-xl md:text-2xl lg:text-3xl">
+        CONTACT US
+      </a>
+    </div>
+
+  </section>
+
+
+  <section>
+    <!-- Container with the circular navigation button -->
+    <div class="relative h-[500px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
+      <!-- Background Image -->
+      <img src="./images/img1.jpg" alt="Image" class="w-full h-full object-cover">
+  
+      <!-- Container for Text -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+  
+        <!-- Title Text -->
+        <h1 class="text-white text-4xl sm:text-3xl md:text-5xl font-bold font-sans mb-3">
+          GARDEN CARE<br>is our true<br>passion!
+        </h1>
+  
+        <!-- Subtitle Text -->
+        <p class="text-white text-center text-lg sm:text-base md:text-xl font-sans mb-6 max-w-3xl mx-auto">
+          SO WHENEVER YOU JUST FEEL YOU NEED A PROFESSIONAL HELPING HAND AT YOUR GARDEN, CALL US UP!
+        </p>
+        
+  
+        <!-- Curved Box (Button) -->
+        <div class="border-2 border-white text-white py-2 px-8 rounded-full text-center cursor-pointer hover:bg-white hover:text-gray-800 transition-all">
+          <span class="text-sm sm:text-xs md:text-sm">FIND OUT MORE</span>
+        </div>
+  
+      </div>
+  
+      <!-- Circular Dots Navigation -->
+      <div class="absolute bottom-8 sm:bottom-4 left-1/2 transform -translate-x-1/2 flex items-center justify-center space-x-2">
+        <!-- Uncolored dot -->
+        <div class="w-2 h-2 rounded-full border-2 border-white bg-transparent"></div>
+  
+        <!-- Colored dot 1 -->
+        <div class="w-2 h-2 rounded-full bg-white"></div>
+  
+        <!-- Colored dot 2 -->
+        <div class="w-2 h-2 rounded-full bg-white"></div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section class="flex flex-wrap h-auto relative h-[200px] sm:h-[200px] md:h-[250px]">
+    <!-- Section 1: Yellow Shade 500 -->
+    <div class="w-full sm:w-1/3 bg-yellow-500 flex items-center justify-center p-4 sm:p-8">
+      <div class="text-center">
+        <img src="./images/img4.png" alt="Image 1" class="mx-auto mb-4 w-24 h-24 sm:w-32 sm:h-32">
+        <h2 class="text-lg sm:text-xl text-black text-2xl">BEST PRACTICING</h2>
+      </div>
+    </div>
+  
+    <!-- Section 2: Yellow Shade 400 -->
+    <div class="w-full sm:w-1/3 bg-yellow-400 flex items-center justify-center p-4 sm:p-8">
+      <div class="text-center">
+        <img src="./images/img5.png" alt="Image 2" class="mx-auto mb-4 w-24 h-24 sm:w-32 sm:h-32">
+        <h2 class="text-lg sm:text-xl text-white text-2xl">FIRST PACE</h2>
+      </div>
+    </div>
+  
+    <!-- Section 3: Yellow Shade 300 -->
+    <div class="w-full sm:w-1/3 bg-yellow-300 flex items-center justify-center p-4 sm:p-8">
+      <div class="text-center">
+        <img src="./images/img6.png" alt="Image 3" class="mx-auto mb-4 w-24 h-24 sm:w-32 sm:h-32">
+      <h2 class="text-lg sm:text-xl text-white text-2xl">RANGE OF SERVICES</h2>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="flex flex-wrap h-auto sm:h-[400px] md:h-[550px]">
+    <!-- Left side: Background image (hidden on small screens) -->
+    <div class="w-full md:w-1/2 bg-cover bg-left h-[400px] sm:h-[300px] md:h-[580px] hidden sm:block"
+      style="background-image: url('./images/img10.jpg');">
+      <!-- The left side has the background image, no content here -->
+    </div>
+
+    <!-- Right side: Text content -->
+    <div class="w-full md:w-1/2 flex flex-col justify-between items-start px-8 py-8 sm:h-[300px] md:h-[480px] pt-20">
+      <div>
+        <h2 class="text-3xl sm:text-2xl md:text-5xl font-bold font-sans text-black mt-4 sm:mt-2 pb-3">
+          Why Energico?
+        </h2>
+        <h4 class="text-xl sm:text-lg md:text-2xl font-semibold text-gray-500 font-sans mt-2 sm:mt-1 pb-5">
+          WELCOME TO THE TOP RATED EXTERIOR DESIGN<br>COMPANY
+        </h4>
+        <p class="text-lg sm:text-base md:text-2xl text-gray-400 font-sans mt-3">
+          After years of practical (both personal and work-related)<br>experience at hand, our team of passionate
+          gardeners is your only option!
+        </p>
+    </div>
+      <!-- Rounded box with "FIND OUT MORE" text at the bottom -->
+      <div
+        class="bg-yellow-500 text-white rounded-full px-10 py-3 text-sm sm:text-xs md:text-sm mt-8 sm:mt-5 cursor-pointer hover:bg-yellow-400 transition-all">
+        FIND OUT MORE
+      </div>
+    </div>
+
+</section>
+
+
+
+  <section class="flex flex-col md:flex-row h-[400px]">
+    <!-- Left side: Text content -->
+    <div class="relative w-full md:w-full bg-cover bg-center h-full"
+    style="background-image: url('./images/img11.jpg');">
+      <!-- Create and The Perfect Garden Text -->
+      <div class="flex flex-col text-left pt-20 mx-20">
+      <h2 class="text-4xl sm:text-3xl md:text-5xl font-bold font-sans text-left text-yellow-500 mt-4 sm:mt-2">
+        CREATE
+      </h2>
+      <h4 class="text-3xl sm:text-2xl md:text-5xl font-bold text-white text-left font-sans mt-2 sm:mt-2 md:mt-4">
+        The Perfect Garden!
+      </h4>
+  
+      <!-- "Find Out More" Button -->
+      <div class="mt-6 sm:mt-8 bg-green-500 text-white rounded-full px-6 py-2 sm:px-7 sm:py-3 md:px-8 md:py-4 text-sm sm:text-base md:text-lg w-max cursor-pointer hover:bg-green-400 transition-all">
+  FIND OUT MORE
+</div>
+
+    </div>
+    </div>
+  </section>
+  
+  <section class="flex flex-col md:flex-row h-[500px]">
+    <!-- Left side: Text content -->
+    <div class="relative w-full md:w-full bg-cover bg-center h-[300px] sm:h-[400px] md:h-[550px]"
+      style="background-image: url('./images/img12.jpg');">
+      <!-- Title and Text -->
+       <div class="flex flex-col text-left pt-10">
+      <h2 class="text-4xl sm:text-2xl md:text-5xl font-bold text-black-500 font-sans text-left mt-5 sm:mt-2 md:mt-8 pl-3 sm:pl-2 md:pl-8">
+        Perform to the<br>Highest Standards
+      </h2>
+      <p class="text-xl sm:text-lg md:text-3xl text-gray-300 text-left mt-2 sm:mt-5 md:mt-6 pl-3 sm:pl-6 md:pl-8">
+        With all kinds of garden design/care,<br>lawn & plants in our range, we're your<br>natural choice!
+      </p>
+  
+      <!-- "Get A Quote" button at the bottom-left -->
+      <div class="bottom-8 left-8 border-2 border-gray-500 text-gray-500 rounded-full px-8 py-3 flex items-center justify-center font-bold text-sm md:text-base w-max mt-6 cursor-pointer hover:bg-gray-500 hover:text-white transition-all mx-5">
+        GET A QUOTE
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  
+  <section class="flex flex-col items-center my-10 bg-gray-200 mt-0">
+    <!-- Heading: Our Advantages -->
+    <h2 class="text-5xl font-bold text-center mt-5 pt-20">Our Advantages</h2>
+  
+    <!-- Grid Container for 3 columns and 2 rows -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 w-full max-w-screen-xl mt-0">
+  
+      <!-- Box 1 -->
+      <div class="flex flex-col items-center justify-center p-6 rounded-lg text-center space-y-4 pt-5">
+        <img src="./images/img13.png" alt="Creative Ideas" class="w-24 h-24 mb-4 mx-auto">
+        <h2 class="text-3xl sm:text-4xl text-green-600 font-semibold mb-2 pt-3">CREATIVE IDEAS</h2>
+        <p class="text-xl sm:text-2xl text-center text-gray-500 pt-3">Serving everyone from household owners to hotels and offices, we make sure to provide a truly full-cycle range of exterior design, landscaping, and exterior remodeling services!</p>
+      </div>
+  
+      <!-- Box 2 -->
+      <div class="flex flex-col items-center justify-center p-6 rounded-lg text-center space-y-4">
+        <img src="./images/img15.png" alt="Decorating" class="w-24 h-24 mb-4 mx-auto">
+        <h2 class="text-3xl sm:text-4xl text-green-600 font-semibold mb-2 pt-3">DECORATING</h2>
+        <p class="text-xl sm:text-2xl text-center text-gray-500 pt-3">It doesn’t matter if it’s the Christmas time of the year or not, priming your house with some decorative elements or masonry should not and is not a seasonal fad!</p>
+      </div>
+  
+      <!-- Box 3 -->
+      <div class="flex flex-col items-center justify-center p-6 rounded-lg text-center space-y-4 pt-0">
+        <img src="./images/img17.png" alt="Garden Design" class="w-24 h-24 mb-4 mx-auto">
+        <h2 class="text-3xl sm:text-4xl text-green-600 font-semibold mb-2 pt-3">GARDEN DESIGN</h2>
+        <p class="text-xl sm:text-2xl text-center text-gray-500 pt-3">Did you ever consider giving your house exterior or your landscape a unique look, implementing some superb design ideas you’ve seen before in magazines?</p>
+      </div>
+  
+      <!-- Box 4 (Reduced space from Box 1) -->
+      <div class="flex flex-col items-center justify-center p-6 rounded-lg text-center space-y-4 mt-0 pb-20 pt-0">
+        <img src="./images/img14.png" alt="Expert Advice" class="w-24 h-24 mb-4 mx-auto">
+        <h2 class="text-3xl sm:text-4xl text-green-600 font-semibold mb-2 pt-3">EXPERT ADVICE</h2>
+        <p class="text-xl sm:text-2xl text-center text-gray-500 pt-3">Regardless of how crazy your exterior idea is, our team of design-and-build experts will easily turn it into reality! This is true for projects of any scale!</p>
+      </div>
+  
+      <!-- Box 5 -->
+      <div class="flex flex-col items-center justify-center p-6 rounded-lg text-center space-y-4 pt-3">
+        <img src="./images/img16.png" alt="Friendly Prices" class="w-24 h-24 mb-4 mx-auto">
+        <h2 class="text-3xl sm:text-4xl text-green-600 font-semibold mb-2 pt-3">FRIENDLY PRICES</h2>
+        <p class="text-xl sm:text-2xl text-center text-gray-500 pt-3 pb-10">Having so much to offer, we also would love to give you the best pricing on all of our services! This means that as compared to our market rivals, our pricing is indeed fair and friendly!</p>
+      </div>
+  
+      <!-- Box 6 (Reduced space from Box 3) -->
+      <div class="flex flex-col items-center justify-center p-6 rounded-lg text-center space-y-4 mt-0 pb-20 pt-0">
+        <img src="./images/img18.png" alt="Softscapes" class="w-24 h-24 mb-4 mx-auto">
+        <h2 class="text-3xl sm:text-4xl text-green-600 font-semibold mb-2 pt-3">SOFTSCAPES</h2>
+        <p class="text-xl sm:text-2xl text-center text-gray-500 pt-3">Softscaping is the total opposite of hardscaping in that it is neither as long-lasting as the hard structure, nor is it made of materials that are durable.</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section class="flex flex-col items-center my-10 mt-0">
+    <!-- Heading: Our Advantages -->
+    <h2 class="text-4xl sm:text-5xl font-bold text-center text-black mt-5 pt-5">
+      See the Tips & Tricks for Gardeners on Our Blog!
+    </h2>
+  
+    <!-- Flex container for two columns with equal space -->
+    <div class="flex flex-col sm:flex-row w-full mt-8 pt-10 gap-x-8 gap-y-10 pb-10">
+  
+      <!-- First Column -->
+      <div class="flex flex-col w-full sm:w-1/2 px-5 gap-y-6">
+        <img src="./images/img21.jpg" alt="Image 21" class="w-full h-auto rounded-lg">
+        <h2 class="text-3xl sm:text-4xl font-semibold text-gray-500 mt-6">THE LESS CHEMICALS YOU USE, THE BETTER!</h2>
+        <p class="text-xl sm:text-2xl text-gray-600 mt-3">
+          So, we guess that if you're reading this blog entry now, you are an avid gardener yourself, right? Which in
+          turn means that as we're talking about the ways to compost your garden, the more you should be listening.
+        </p>
+      </div>
+  
+      <!-- Second Column -->
+      <div class="flex flex-col w-full sm:w-1/2 px-5 gap-y-6">
+        <img src="./images/img20.jpg" alt="Image 20" class="w-full h-auto rounded-lg">
+        <h2 class="text-3xl sm:text-4xl font-semibold text-gray-500 mt-6">THE LESS CHEMICALS YOU USE, THE BETTER!</h2>
+        <p class="text-xl sm:text-2xl text-gray-600 mt-3">
+          So, we guess that if you're reading this blog entry now, you are an avid gardener yourself, right? Which in
+          turn means that as we're talking about the ways to compost your garden, the more you should be listening.
+        </p>
+      </div>
+  
+    </div>
+  </section>
+</body>
+
+  <footer class="bg-black p-6 text-center text-white">
+    <!-- Logo Section -->
+    <div class="flex items-center justify-center mb-4">
+      <img src="./images/footer-logo.png" alt="Centered Image" class="w-auto h-12">
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="flex justify-center space-x-4 mb-4">
+      <i class="fab fa-facebook-f w-8 h-8 text-2xl"></i>
+      <i class="fab fa-twitter w-8 h-8 text-2xl"></i>
+      <i class="fab fa-pinterest w-8 h-8 text-2xl"></i>
+      <i class="fab fa-instagram w-8 h-8 text-2xl"></i>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="w-full flex justify-center text-white text-md mt-4">
+      <p>Energico &copy; 2022 . Privacy Policy</p>
+    </div>
+  </footer>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<header class="bg-gray-100 font-sans">
+  <!-- Navigation Bar -->
+  <nav class="bg-green-600 p-4 h-16 sm:h-12">
+    <div class="container mx-auto flex justify-between items-center">
+      <!-- Call Us Text (Hidden on small screens) -->
+      <a href="index.html" class="text-white text-lg sm:text-sm hidden sm:block pb-2 sm:pb-0">
+        Call Us Now: 555 376 7872
+      </a>
+
+      <!-- Social Media Icons (Left aligned with less space between them on small screens) -->
+      <div class="flex justify-start items-center space-x-2 sm:space-x-4 w-full sm:w-auto sm:ml-auto">
+        <i class="fab fa-facebook-f w-8 h-8 text-xl text-white sm:text-base"></i>
+        <i class="fab fa-twitter w-8 h-8 text-xl text-white sm:text-base"></i>
+        <i class="fab fa-pinterest w-8 h-8 text-xl text-white sm:text-base"></i>
+        <i class="fab fa-instagram w-8 h-8 text-xl text-white sm:text-base"></i>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+
+  <!-- Home Page Content -->
+  <section class="container mx-auto p-14 text-center">
+
+    <!-- Logo Image -->
+    <div class="flex items-center justify-center mb-10">
+      <img src="./images/logo.png" alt="Centered Image" class="h-auto w-64 sm:w-80 md:w-96">
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="flex justify-center flex-wrap">
+      <a href="index.html"
+        class="text-xl text-black hover:text-yellow-500 hover:underline decoration-yellow-500 p-8 sm:text-xl md:text-2xl lg:text-3xl">
+        HOME
+      </a>
+      <a href="about.html"
+        class="text-xl text-black hover:text-yellow-500 hover:underline decoration-yellow-500 p-8 sm:text-xl md:text-2xl lg:text-3xl">
+        ABOUT
+      </a>
+      <a href="contact.html"
+        class="text-xl text-black text-yellow-500 underline decoration-yellow-500 hover:text-yellow-500 hover:underline decoration-yellow-500 p-8 sm:text-xl md:text-2xl lg:text-3xl">
+        CONTACT US
+      </a>
+    </div>
+
+  </section>
+
+  <section class="relative bg-cover bg-center h-[400px]">
+    <!-- Overlay to make text more visible over the image -->
+    <div class="absolute inset-0 bg-green-600"></div>
+
+    <!-- Content Container -->
+    <div class="relative z-10 flex flex-col justify-center items-center h-full text-center text-white px-4">
+      <!-- Main Heading: ABOUT US -->
+      <h2 class="text-4xl sm:text-5xl font-bold mb-4">CONTACT US</h2>
+
+      <!-- Breadcrumb or Navigation Text: Home / About Us -->
+      <p class="text-xl sm:text-3xl">
+        <span class="text-white">Home</span> /
+        <span class="text-yellow-500">Contact Us</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="flex flex-col md:flex-row p-0 min-h-screen pt-0">
+    <!-- Left Column: Text (White Background) -->
+    <div class="w-full md:w-1/2 px-8 md:px-14 flex flex-col bg-white pt-20">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4">Get in touch</h2>
+      <h4 class="text-xl sm:text-2xl md:text-3xl text-green-600 font-semibold mt-2">ENERGICO - AGRICULTURE & GARDEN CARE</h4>
+      <div class="mt-8">
+        <h4 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-green-600 mb-4">Toronto Office</h4>
+        <p class="text-base sm:text-lg md:text-2xl text-gray-600">
+          8949 Kenamar Drive, suite 101 Boston,<br>Ma 92121 Phone.555.376.7872 Fax.<br>555.376.7873
+        </p>
+      </div>
+      <div class="mt-8">
+        <h4 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-green-600 mb-4">HQ Office (Boston, MA, USA)</h4>
+        <p class="text-base sm:text-lg md:text-2xl text-gray-600">
+          8949 Kenamar Drive, suite 101 Boston,<br>Ma 92121 Phone.555.376.7872 Fax.<br>555.376.7873
+        </p>
+      </div>
+    </div>
+
+    <!-- Right Column: Gray Background -->
+    <div class="w-full md:w-1/2 px-8 md:px-14 flex-col bg-gray-200 pt-20 pb-20">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4">Write to us</h2>
+      <p class="text-base sm:text-lg md:text-2xl text-gray-800 mb-12">GET A PRICING QUOTE FOR A RESIDENTIAL OR BUSINESS SOLAR PANEL INSTALLATION</p>
+
+      <!-- Contact Form -->
+      <form class="text-base sm:text-lg md:text-xl space-y-6">
+        <input type="text" class="w-full p-4 border-2 border-green-600 rounded-full" placeholder="Your name">
+        <input type="email" class="w-full p-4 border-2 border-green-600 rounded-full" placeholder="Your e-mail">
+        <input type="tel" class="w-full p-4 border-2 border-green-600 rounded-full" placeholder="Your phone">
+        <div class="relative w-full">
+          <!-- Input with down arrow icon -->
+          <input type="text" class="w-full p-4 pr-16 border-2 border-green-600 rounded-full" placeholder="Do you need a residential or commercial system?">
+
+          <!-- Dropdown Image Icon -->
+          <img src="./images/down-arrow-ico-512.webp" alt="Dropdown"
+            class="absolute right-4 top-1/2 transform -translate-y-1/2 w-6 h-6">
+        </div>
+
+        <input type="text" class="w-full p-4 border-2 border-green-600 rounded-full" placeholder="Street Address">
+        <div class="relative w-full">
+          <!-- Input with down arrow icon -->
+          <input type="text" class="w-full p-4 pr-16 border-2 border-green-600 rounded-full" placeholder="What is your average monthly electricity bill?">
+
+          <!-- Dropdown Image Icon -->
+          <img src="./images/down-arrow-ico-512.webp" alt="Dropdown"
+            class="absolute right-4 top-1/2 transform -translate-y-1/2 w-6 h-6">
+        </div>
+
+        <!-- "Request Quote" Button -->
+        <button type="submit" class="bg-green-500 text-sm text-white p-3 rounded-full px-0 sm:px-20 py-3 mt-6 w-3/4 sm:w-auto md:px-20 md:py-3">
+          REQUEST QUOTE
+        </button>
+      </form>
+    </div>
+</section>
+
+</body>
+
+  <footer class="bg-black p-6 text-center text-white">
+    <!-- Logo Section -->
+    <div class="flex items-center justify-center mb-4">
+      <img src="footer-logo.png" alt="Centered Image" class="w-auto h-12">
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="flex justify-center space-x-4 mb-4">
+      <i class="fab fa-facebook-f w-8 h-8 text-2xl"></i>
+      <i class="fab fa-twitter w-8 h-8 text-2xl"></i>
+      <i class="fab fa-pinterest w-8 h-8 text-2xl"></i>
+      <i class="fab fa-instagram w-8 h-8 text-2xl"></i>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="w-full flex justify-center text-white text-md mt-4">
+      <p>Energico &copy; 2022 . Privacy Policy</p>
+    </div>
+  </footer>
+
+</html>
